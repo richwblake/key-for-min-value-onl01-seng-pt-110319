@@ -6,6 +6,7 @@ def key_for_min_value(name_hash)
   lowest_value = names_arr[0][1]
   lowest_key = names_arr[0][0]
   p lowest_value
+  p lowest_key
   
   outer_count = 0
   while outer_count < names_arr.length do
