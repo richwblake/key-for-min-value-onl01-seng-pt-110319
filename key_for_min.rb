@@ -18,5 +18,5 @@ def key_for_min_value(name_hash)
       end
     outer_count += 1
   end
-  lowest_value
+  lowest_key
 end
