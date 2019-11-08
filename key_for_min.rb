@@ -14,6 +14,7 @@ def key_for_min_value(name_hash)
         if names_arr[outer_count][1] < lowest_value
           lowest_key = names_arr[outer_count][1] 
           lowest_value = names_arr[outer_count][0]
+        end
         inner_count += 1
       end
     outer_count += 1
